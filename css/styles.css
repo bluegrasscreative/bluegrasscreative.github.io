@@ -83,6 +83,7 @@ header {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   z-index: 500;
+  pointer-events: none;
   /*background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0.75)));
