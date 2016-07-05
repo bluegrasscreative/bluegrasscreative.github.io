@@ -80,7 +80,7 @@ header {
   background-repeat: repeat-y;
   top: 0px;
   left: 0px;
-  opacity: 0.45;
+  opacity: 0.5;
   width: 100%;
   height: 150vh;
 }
@@ -453,8 +453,8 @@ circle {
   background-size: 100% 100%;
   border-radius: 70px;
   background-size: 225%;
-  -webkit-animation: colorSlide 6s linear infinite, nudgeMouse 6s ease-out infinite;
-          animation: colorSlide 6s linear infinite, nudgeMouse 6s ease-out infinite;
+  -webkit-animation: colorSlide 11s linear infinite, nudgeMouse 11s ease-out infinite;
+          animation: colorSlide 11s linear infinite, nudgeMouse 11s ease-out infinite;
 }
 .mouse:before, .mouse:after {
   content: "";
@@ -476,8 +476,8 @@ circle {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  -webkit-animation: trackBallSlide 6s linear infinite;
-          animation: trackBallSlide 6s linear infinite;
+  -webkit-animation: trackBallSlide 11s linear infinite;
+          animation: trackBallSlide 11s linear infinite;
 }
 
 @-webkit-keyframes colorSlide {
