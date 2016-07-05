@@ -152,6 +152,16 @@ section {
   box-shadow: 0px -4px 45px -6px rgba(0,0,0,0.3);
 }
 
+
+
+
+
+
+
+
+
+
+
 .section {
 	clear: both;
 	padding: 0px;
@@ -462,14 +472,351 @@ circle {
 }
 
 
+.mouse {
+  background: #DEDEDE -webkit-linear-gradient(transparent 0%, transparent 50%, #1fa2da 50%, #1fa2da 100%);
+  background: #DEDEDE linear-gradient(transparent 0%, transparent 50%, #1fa2da 50%, #1fa2da 100%);
+  position: relative;
+  width: 36px;
+  height: 62px;
+  margin: 20px auto;
+  background-size: 100% 100%;
+  border-radius: 70px;
+  background-size: 225%;
+  -webkit-animation: colorSlide 6s linear infinite, nudgeMouse 6s ease-out infinite;
+          animation: colorSlide 6s linear infinite, nudgeMouse 6s ease-out infinite;
+}
+.mouse:before, .mouse:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.mouse:before {
+  width: 32px;
+  height: 56px;
+  background-color: #FFF;
+  border-radius: 70px;
+}
+.mouse:after {
+  background-color: #1fa2da;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  -webkit-animation: trackBallSlide 6s linear infinite;
+          animation: trackBallSlide 6s linear infinite;
+}
 
+@-webkit-keyframes colorSlide {
+  0% {
+    background-position: 0% 100%;
+  }
+  20% {
+    background-position: 0% 0%;
+  }
+  21% {
+    background-color: #DEDEDE;
+  }
+  29.99% {
+    background-color: #1fa2da;
+    background-position: 0% 0%;
+  }
+  30% {
+    background-color: #DEDEDE;
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  51% {
+    background-color: #DEDEDE;
+  }
+  59.99% {
+    background-color: #1fa2da;
+    background-position: 0% 0%;
+  }
+  60% {
+    background-color: #DEDEDE;
+    background-position: 0% 100%;
+  }
+  80% {
+    background-position: 0% 0%;
+  }
+  81% {
+    background-color: #DEDEDE;
+  }
+  89.99%, 100% {
+    background-color: #1fa2da;
+  }
+}
 
+@keyframes colorSlide {
+  0% {
+    background-position: 0% 100%;
+  }
+  20% {
+    background-position: 0% 0%;
+  }
+  21% {
+    background-color: #DEDEDE;
+  }
+  29.99% {
+    background-color: #1fa2da;
+    background-position: 0% 0%;
+  }
+  30% {
+    background-color: #DEDEDE;
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  51% {
+    background-color: #DEDEDE;
+  }
+  59.99% {
+    background-color: #1fa2da;
+    background-position: 0% 0%;
+  }
+  60% {
+    background-color: #DEDEDE;
+    background-position: 0% 100%;
+  }
+  80% {
+    background-position: 0% 0%;
+  }
+  81% {
+    background-color: #DEDEDE;
+  }
+  89.99%, 100% {
+    background-color: #1fa2da;
+  }
+}
+@-webkit-keyframes trackBallSlide {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  6% {
+    opacity: 1;
+    -webkit-transform: scale(0.9) translateY(3.5px);
+            transform: scale(0.9) translateY(3.5px);
+  }
+  14% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(28px);
+            transform: scale(0.4) translateY(28px);
+  }
+  15%, 19% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(-14px);
+            transform: scale(0.4) translateY(-14px);
+  }
+  28%, 29.99% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  36% {
+    opacity: 1;
+    -webkit-transform: scale(0.9) translateY(3.5px);
+            transform: scale(0.9) translateY(3.5px);
+  }
+  44% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(28px);
+            transform: scale(0.4) translateY(28px);
+  }
+  45%, 49% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(-14px);
+            transform: scale(0.4) translateY(-14px);
+  }
+  58%, 59.99% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  66% {
+    opacity: 1;
+    -webkit-transform: scale(0.9) translateY(3.5px);
+            transform: scale(0.9) translateY(3.5px);
+  }
+  74% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(28px);
+            transform: scale(0.4) translateY(28px);
+  }
+  75%, 79% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(-14px);
+            transform: scale(0.4) translateY(-14px);
+  }
+  88%, 100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+}
+@keyframes trackBallSlide {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  6% {
+    opacity: 1;
+    -webkit-transform: scale(0.9) translateY(3.5px);
+            transform: scale(0.9) translateY(3.5px);
+  }
+  14% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(28px);
+            transform: scale(0.4) translateY(28px);
+  }
+  15%, 19% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(-14px);
+            transform: scale(0.4) translateY(-14px);
+  }
+  28%, 29.99% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  36% {
+    opacity: 1;
+    -webkit-transform: scale(0.9) translateY(3.5px);
+            transform: scale(0.9) translateY(3.5px);
+  }
+  44% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(28px);
+            transform: scale(0.4) translateY(28px);
+  }
+  45%, 49% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(-14px);
+            transform: scale(0.4) translateY(-14px);
+  }
+  58%, 59.99% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+  66% {
+    opacity: 1;
+    -webkit-transform: scale(0.9) translateY(3.5px);
+            transform: scale(0.9) translateY(3.5px);
+  }
+  74% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(28px);
+            transform: scale(0.4) translateY(28px);
+  }
+  75%, 79% {
+    opacity: 0;
+    -webkit-transform: scale(0.4) translateY(-14px);
+            transform: scale(0.4) translateY(-14px);
+  }
+  88%, 100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(-14px);
+            transform: scale(1) translateY(-14px);
+  }
+}
+@-webkit-keyframes nudgeMouse {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  30% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  60% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  80% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  90% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes nudgeMouse {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  30% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  60% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  80% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  90% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
 
 
 @media only screen and (max-width: 680px) {
 	.col {
 		margin: 0% 0 0% 0%;
 	}
+  .smart-wrap {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 680px) {
 
