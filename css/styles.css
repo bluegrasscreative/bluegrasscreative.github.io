@@ -740,6 +740,12 @@ circle {
     height: 75px;
     padding: 10px;
   }
+  .logovec {
+    max-width: 90px;
+  }
+  .logo {
+    font-size: 26px;
+  }
   .smart-wrap, .smart-bar {display: none;}
 }
 @media only screen and (max-width: 680px) {
