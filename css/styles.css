@@ -451,7 +451,7 @@ circle {
   height: 62px;
   margin: 19px auto;
   background-size: 100% 100%;
-  border-radius: 70px;
+  border-radius: 62px;
   background-size: 225%;
   -webkit-animation: colorSlide 11s linear infinite, nudgeMouse 11s ease-out infinite;
           animation: colorSlide 11s linear infinite, nudgeMouse 11s ease-out infinite;
@@ -468,8 +468,8 @@ circle {
 .mouse:before {
   width: 32px;
   height: 56px;
-  background-color: #FFF;
-  border-radius: 70px;
+  background-color: #FFFFFF;
+  border-radius: 32px;
 }
 .mouse:after {
   background-color: #1fa2da;
