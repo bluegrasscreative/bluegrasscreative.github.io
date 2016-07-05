@@ -97,18 +97,22 @@ header {
   -moz-box-shadow: -20px 20px 39px -5px rgba(0,0,0,0.4);
   box-shadow: -20px 20px 39px -5px rgba(0,0,0,0.4);*/
 }
+.logoholder {
+  position: relative;
+  margin: 0 auto;
+}
 .logovec {
   position: relative;
-  margin: 25px auto;
+  margin: 0px auto;
   stroke: #FFF;
-  margin-left: 5px;
-  max-width: 110px;
+  max-width: 130px;
   text-align: center;
   stroke-dasharray: 752.8801,188.22;
   animation-name: logoanim;
   animation-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
   animation-duration: 4s;
   animation-fill-mode: forwards;
+  fill:none;stroke-width:55;stroke-miterlimit:10;
 }
 @keyframes logoanim {
   0% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
@@ -197,13 +201,13 @@ section {
   position: relative;
   margin: 0 auto;
   width: calc(100% - 240px);
-  -webkit-perspective: 1000px;
+  -webkit-perspective: 800px;
   -webkit-perspective-origin: 50% 0;
-  -moz-perspective: 1000px;
+  -moz-perspective: 800px;
   -moz-perspective-origin: 50% 0;
-  perspective: 1000px;
+  perspective: 800px;
   perspective-origin: 50% 0;
-  -o-perspective: 1000px;
+  -o-perspective: 800px;
   -o-perspective-origin: 50% 0;
   padding: 0;
   height: 95px;
