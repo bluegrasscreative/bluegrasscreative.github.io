@@ -195,8 +195,19 @@ section {
   margin: 0 auto;
   background: #FFF;
   padding: 100px 0px;
-  min-height: 1500px;
 }
+.first-section {
+  padding-bottom: 390px;
+}
+.home-tileset1 {
+  background: url('http://www.bluegrasscoms.com/img/headerbg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backup {
+  margin-top: -195px;
+}
+
 .smart-wrap {
   position: relative;
   margin: 0 auto;
