@@ -54,7 +54,7 @@ header {
 }
 .logo {
   position: fixed;
-  top: 30vh;
+  top: 23vh;
   left: 50%;
   margin-left: -160px;
   width: 320px;
@@ -447,11 +447,11 @@ circle {
   background: #DEDEDE -webkit-linear-gradient(transparent 0%, transparent 50%, #1fa2da 50%, #1fa2da 100%);
   background: #DEDEDE linear-gradient(transparent 0%, transparent 50%, #1fa2da 50%, #1fa2da 100%);
   position: relative;
-  width: 36px;
-  height: 62px;
+  width: 29px;
+  height: 50px;
   margin: 19px auto;
   background-size: 100% 100%;
-  border-radius: 62px;
+  border-radius: 29px;
   background-size: 225%;
   -webkit-animation: colorSlide 11s linear infinite, nudgeMouse 11s ease-out infinite;
           animation: colorSlide 11s linear infinite, nudgeMouse 11s ease-out infinite;
@@ -466,15 +466,15 @@ circle {
   margin: auto;
 }
 .mouse:before {
-  width: 32px;
-  height: 56px;
+  width: 23px;
+  height: 42px;
   background-color: #FFFFFF;
-  border-radius: 32px;
+  border-radius: 23px;
 }
 .mouse:after {
   background-color: #1fa2da;
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   border-radius: 100%;
   -webkit-animation: trackBallSlide 11s linear infinite;
           animation: trackBallSlide 11s linear infinite;
@@ -568,155 +568,155 @@ circle {
 @-webkit-keyframes trackBallSlide {
   0% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   6% {
     opacity: 1;
-    -webkit-transform: scale(0.9) translateY(3.5px);
-            transform: scale(0.9) translateY(3.5px);
+    -webkit-transform: scale(0.9) translateY(2.8px);
+            transform: scale(0.9) translateY(2.8px);
   }
   14% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(28px);
-            transform: scale(0.4) translateY(28px);
+    -webkit-transform: scale(0.4) translateY(22.4px);
+            transform: scale(0.4) translateY(22.4px);
   }
   15%, 19% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(-14px);
-            transform: scale(0.4) translateY(-14px);
+    -webkit-transform: scale(0.4) translateY(-11.2px);
+            transform: scale(0.4) translateY(-11.2px);
   }
   28%, 29.99% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   30% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   36% {
     opacity: 1;
-    -webkit-transform: scale(0.9) translateY(3.5px);
-            transform: scale(0.9) translateY(3.5px);
+    -webkit-transform: scale(0.9) translateY(2.8px);
+            transform: scale(0.9) translateY(2.8px);
   }
   44% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(28px);
-            transform: scale(0.4) translateY(28px);
+    -webkit-transform: scale(0.4) translateY(22.4px);
+            transform: scale(0.4) translateY(22.4px);
   }
   45%, 49% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(-14px);
-            transform: scale(0.4) translateY(-14px);
+    -webkit-transform: scale(0.4) translateY(-11.2px);
+            transform: scale(0.4) translateY(-11.2px);
   }
   58%, 59.99% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   60% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   66% {
     opacity: 1;
-    -webkit-transform: scale(0.9) translateY(3.5px);
-            transform: scale(0.9) translateY(3.5px);
+    -webkit-transform: scale(0.9) translateY(2.8px);
+            transform: scale(0.9) translateY(2.8px);
   }
   74% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(28px);
-            transform: scale(0.4) translateY(28px);
+    -webkit-transform: scale(0.4) translateY(22.4px);
+            transform: scale(0.4) translateY(22.4px);
   }
   75%, 79% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(-14px);
-            transform: scale(0.4) translateY(-14px);
+    -webkit-transform: scale(0.4) translateY(-11.2px);
+            transform: scale(0.4) translateY(-11.2px);
   }
   88%, 100% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
 }
 @keyframes trackBallSlide {
   0% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   6% {
     opacity: 1;
-    -webkit-transform: scale(0.9) translateY(3.5px);
-            transform: scale(0.9) translateY(3.5px);
+    -webkit-transform: scale(0.9) translateY(2.8px);
+            transform: scale(0.9) translateY(2.8px);
   }
   14% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(28px);
-            transform: scale(0.4) translateY(28px);
+    -webkit-transform: scale(0.4) translateY(22.4px);
+            transform: scale(0.4) translateY(22.4px);
   }
   15%, 19% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(-14px);
-            transform: scale(0.4) translateY(-14px);
+    -webkit-transform: scale(0.4) translateY(-11.2px);
+            transform: scale(0.4) translateY(-11.2px);
   }
   28%, 29.99% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   30% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   36% {
     opacity: 1;
-    -webkit-transform: scale(0.9) translateY(3.5px);
-            transform: scale(0.9) translateY(3.5px);
+    -webkit-transform: scale(0.9) translateY(22.4px);
+            transform: scale(0.9) translateY(22.4px);
   }
   44% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(28px);
-            transform: scale(0.4) translateY(28px);
+    -webkit-transform: scale(0.4) translateY(22.4px);
+            transform: scale(0.4) translateY(22.4px);
   }
   45%, 49% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(-14px);
-            transform: scale(0.4) translateY(-14px);
+    -webkit-transform: scale(0.4) translateY(-11.2px);
+            transform: scale(0.4) translateY(-11.2px);
   }
   58%, 59.99% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   60% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
   66% {
     opacity: 1;
-    -webkit-transform: scale(0.9) translateY(3.5px);
-            transform: scale(0.9) translateY(3.5px);
+    -webkit-transform: scale(0.9) translateY(2.8px);
+            transform: scale(0.9) translateY(2.8px);
   }
   74% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(28px);
-            transform: scale(0.4) translateY(28px);
+    -webkit-transform: scale(0.4) translateY(22.4px);
+            transform: scale(0.4) translateY(22.4px);
   }
   75%, 79% {
     opacity: 0;
-    -webkit-transform: scale(0.4) translateY(-14px);
-            transform: scale(0.4) translateY(-14px);
+    -webkit-transform: scale(0.4) translateY(-11.2px);
+            transform: scale(0.4) translateY(-11.2px);
   }
   88%, 100% {
     opacity: 1;
-    -webkit-transform: scale(1) translateY(-14px);
-            transform: scale(1) translateY(-14px);
+    -webkit-transform: scale(1) translateY(-11.2px);
+            transform: scale(1) translateY(-11.2px);
   }
 }
 @-webkit-keyframes nudgeMouse {
