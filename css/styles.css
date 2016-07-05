@@ -740,6 +740,7 @@ circle {
     height: 75px;
     padding: 10px;
   }
+  .smart-wrap, .smart-bar {display: none;}
 }
 @media only screen and (max-width: 680px) {
 
