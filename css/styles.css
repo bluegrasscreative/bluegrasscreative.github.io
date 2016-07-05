@@ -194,45 +194,6 @@ section {
 	width: 33.33%;
 }
 
-
-.brandtag {
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-}
-.brand {
-  fill: none;
-  stroke:#1fa2da;
-  stroke-width:4;
-  stroke-linejoin:round;
-  stroke-miterlimit:10;
-  stroke-dashoffset:0;
-  stroke-dasharray: 550;
-  width: 680px;
-  position: absolute;
-  top: 0px;
-  transition: all 3s cubic-bezier(0.470, 0.000, 0.745, 0.715);
-
-}
-
-.tag {
-  position: absolute;
-  top: 0px;
-  width: 680px;
-}
-.animbrand {
-  animation-name: drawbrand;
-  animation-duration: 4.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-}
-@keyframes drawbrand {
-  0% {stroke-dashoffset:-600;}
-  100% {stroke-dashoffset:0;}
-}
-
-
-
 .behindov {
   position: fixed;
   top: 0px;
@@ -817,6 +778,20 @@ circle {
 	}
   .smart-wrap {
     width: 100%;
+  }
+  .logo {
+    position: absolute;
+  }
+  #particles-js {
+    position: relative;
+  }
+  .navigation {
+    top: 0%;
+    left: 0%;
+    width: 75px;
+    text-align: left;
+    height: 75px;
+    padding: 10px;
   }
 }
 @media only screen and (max-width: 680px) {
