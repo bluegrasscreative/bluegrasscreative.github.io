@@ -7,7 +7,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -23,7 +23,7 @@ a, a:visited {
 canvas {
   display: block;
   vertical-align: bottom;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #particles-js {
   position: fixed;
@@ -44,33 +44,80 @@ header {
   height: 100vh;
   margin: 0 auto;
   padding: 0;
-  background: rgba(44,73,84,1);
-  background: -moz-linear-gradient(top, rgba(44,73,84,1) 0%, rgba(31,162,218,1) 58%, rgba(31,162,218,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,73,84,1)), color-stop(58%, rgba(31,162,218,1)), color-stop(100%, rgba(31,162,218,1)));
-  background: -webkit-linear-gradient(top, rgba(44,73,84,1) 0%, rgba(31,162,218,1) 58%, rgba(31,162,218,1) 100%);
-  background: -o-linear-gradient(top, rgba(44,73,84,1) 0%, rgba(31,162,218,1) 58%, rgba(31,162,218,1) 100%);
-  background: -ms-linear-gradient(top, rgba(44,73,84,1) 0%, rgba(31,162,218,1) 58%, rgba(31,162,218,1) 100%);
-  background: linear-gradient(to bottom, rgba(44,73,84,1) 0%, rgba(31,162,218,1) 58%, rgba(31,162,218,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c4954', endColorstr='#1fa2da', GradientType=0 );
+  background: rgba(3,16,20,1);
+  background: -moz-linear-gradient(top, rgba(3,16,20,1) 0%, rgba(28,88,107,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,16,20,1)), color-stop(100%, rgba(28,88,107,1)));
+  background: -webkit-linear-gradient(top, rgba(3,16,20,1) 0%, rgba(28,88,107,1) 100%);
+  background: -o-linear-gradient(top, rgba(3,16,20,1) 0%, rgba(28,88,107,1) 100%);
+  background: -ms-linear-gradient(top, rgba(3,16,20,1) 0%, rgba(28,88,107,1) 100%);
+  background: linear-gradient(to bottom, rgba(3,16,20,1) 0%, rgba(28,88,107,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#031014', endColorstr='#1c586b', GradientType=0 );
   background-size: 200%;
 }
 
 .logo {
   position: fixed;
-  top: 24vh;
+  top: 25vh;
   left: 50%;
-  margin-left: -160px;
-  width: 320px;
-  line-height: 240px;
-  height: 220px;
-  background: #FFF;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-left: -145px;
+  width: 290px;
+  height: 290px;
+  padding: 5px 0px;
+  line-height: 31px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #FFF;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 26px;
+  border-radius: 1px;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  z-index: 500;
+  /*background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0.75)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );*/
+  /*BOX SHADOWS FOR SKROLLR
+  -webkit-box-shadow: -12px 24px 33px -2px rgba(0,0,0,0.3);
+  -moz-box-shadow: -12px 24px 33px -2px rgba(0,0,0,0.3);
+  box-shadow: -12px 24px 33px -2px rgba(0,0,0,0.3);
+  TO-->
+  -webkit-box-shadow: 37px -33px 33px -2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 37px -33px 33px -2px rgba(0,0,0,0.3);
+  box-shadow: 37px -33px 33px -2px rgba(0,0,0,0.3);*/
+  /*background: rgba(42, 69, 80, 0.09);
+  -webkit-box-shadow: -20px 20px 39px -5px rgba(0,0,0,0.4);
+  -moz-box-shadow: -20px 20px 39px -5px rgba(0,0,0,0.4);
+  box-shadow: -20px 20px 39px -5px rgba(0,0,0,0.4);*/
 }
+.logovec {
+  position: relative;
+  margin: 25px auto;
+  stroke: #FFF;
+  margin-left: 5px;
+  max-width: 110px;
+  text-align: center;
+  stroke-dasharray: 752.8801,188.22;
+  animation-name: logoanim;
+  animation-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes logoanim {
+  0% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
+  5% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
+  45% {stroke: #1fa2da; opacity: 1;}
+  50% {stroke: #FFFFFF;}
+  100% {stroke-dasharray:752.8801,188.22; transform: rotate(-720deg); stroke: #FFF;}
+}
+
 .pllax-bk {
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
@@ -82,7 +129,7 @@ header {
   background-repeat: no-repeat;;
   top: 0px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.3;
   width: 100%;
   height: 150vh;
   /*animation-name: zoomback;
@@ -118,22 +165,24 @@ header {
 .center {text-align: center;}
 h3 {
   color: #1fa2da;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 0.8px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1.2px;
   margin: 15px auto;
 }
 .main-text {
   color: #666666;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 100;
-  width: 700px;
-  line-height: 29px;
+  width: 670px;
+  line-height: 31px;
   max-width: 100%;
   margin: 0 auto;
 }
 strong {
-  font-weight: 600;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 section {
   position: relative;
@@ -147,15 +196,15 @@ section {
 .smart-wrap {
   position: relative;
   margin: 0 auto;
-  width: 85%;
+  width: calc(100% - 240px);
   -webkit-perspective: 1000px;
   -webkit-perspective-origin: 50% 0;
   -moz-perspective: 1000px;
   -moz-perspective-origin: 50% 0;
   perspective: 1000px;
   perspective-origin: 50% 0;
-  perspective: 1000px;
-  perspective-origin: 50% 0;
+  -o-perspective: 1000px;
+  -o-perspective-origin: 50% 0;
   padding: 0;
   height: 95px;
   display: block;
@@ -313,7 +362,7 @@ nav li {
   z-index: 999;
   background: rgba(255,255,255,1);
   height: auto;
-  width: 125px;
+  width: 120px;
   height: 150px;
   padding: 15px;
   text-align: right;
@@ -325,8 +374,6 @@ nav li {
   border-left: none;
   transition-delay: 0.4s;
   -webkit-transition-delay: 0.4s;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .navisopen {
