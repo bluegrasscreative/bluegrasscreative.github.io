@@ -19,6 +19,7 @@ body {
 a, a:visited {
   text-decoration: none;
   color: inherit;
+  outline: none;
 }
 canvas {
   display: block;
@@ -897,7 +898,7 @@ circle {
   .sidelogo {
     position: absolute;
     top: 15px;
-    left: 65px;
+    left: 60px;
     height: 62px;
     padding: 0 0 0 0;
     margin: 0 auto;
