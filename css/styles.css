@@ -996,25 +996,25 @@ circle {
 }
 #qLoverlay::after {
     position:absolute;
-    content:'Creative by Bluegrasscoms';
+    content:url('../img/bload.png');
     left:0;
     right:0;
-    bottom:50%;
+    bottom:45%;
     width: 100%;
     text-align: center;
     opacity: 0;
     font-size:21px;
     letter-spacing: 0.6px;
     color:#1fa2da;
-    animation: fadeinq 0.4s ease forwards;
-    -webkit-animation: fadeinq 0.4s ease forwards;
-    -moz-animation: fadeinq 0.4s ease forwards;
-    -o-animation: fadeinq 0.4s ease forwards;
+    animation: fadeinq 2s ease infinite;
+    -webkit-animation: fadeinq 2s ease infinite;
+    -moz-animation: fadeinq 2s ease infinite;
+    -o-animation: fadeinq 2s ease infinite;
 }
-@keyframes fadeinq {0%{opacity: 0;} 100%{opacity: 1;}}
--webkit-keyframes fadeinq {0%{opacity: 0;} 100%{opacity: 1;}}
--moz-keyframes fadeinq {0%{opacity: 0;} 100%{opacity: 1;}}
--o-keyframes fadeinq {0%{opacity: 0;} 100%{opacity: 1;}}
+@keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
+-webkit-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
+-moz-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
+-o-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
 @media only screen and (max-width: 860px) {
 	.col {
 		margin: 0% 0 0% 0%;
