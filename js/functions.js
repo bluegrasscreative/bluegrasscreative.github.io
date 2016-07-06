@@ -21,17 +21,17 @@ $(function(){
 });
 $(function(){
     $(".navigation, .behindov").click(function(){
-        $(".icon-wrap").toggleClass("fading");
-    });
-});
-$(function(){
-    $(".navigation, .behindov").click(function(){
         $(".sidelogo").toggleClass("sideborder");
     });
 });
 $(function(){
     $(".navigation, .behindov").click(function(){
         $("body").toggleClass("noscroll");
+    });
+});
+$(function(){
+    $(".navigation").hover(function(){
+        $(".icon-wrap, .sidelogo").toggleClass("scaleup");
     });
 });
 $(".link").click(function () {

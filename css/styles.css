@@ -141,7 +141,7 @@ header {
   background-repeat: no-repeat;;
   top: 0px;
   left: 0px;
-  opacity: 0.3;
+  opacity: 0.4;
   width: 100%;
   height: 150vh;
   /*animation-name: zoomback;
@@ -343,16 +343,18 @@ nav {
   padding-right: 10px;
   background: #FFF;
   z-index: 998;
-  -webkit-transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -moz-transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  -o-transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -webkit-transition: all 400ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -moz-transition: all 400ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -o-transition: all 400ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  transition: all 400ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   height: 100vh;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
 }
 nav::-webkit-scrollbar {
   width: 3px;
@@ -401,14 +403,14 @@ nav ul {
   letter-spacing: 1.5px;
   top: 325px;
   opacity: 0;
-  -webkit-transition: all 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  -moz-transition: all 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  -o-transition: all 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  transition: all 1.2s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  -webkit-transform: translateX(275px);
-  -moz-transform: translateX(275px);
-  -o-transform: translateX(275px);
-  transform: translateX(275px);
+  -webkit-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  -moz-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  -o-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  -webkit-transform: translateX(375px);
+  -moz-transform: translateX(375px);
+  -o-transform: translateX(375px);
+  transform: translateX(375px);
   transition-delay: 0.7s;
   -webkit-transition-delay: 0.7s;
 }
@@ -436,7 +438,7 @@ nav li:after {
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 nav li:hover:after {
-  width: 28%;
+  width: 31%;
   background: rgba(31, 162, 218, 1);
 }
 
@@ -453,14 +455,14 @@ nav li:hover:after {
   padding: 0 0;
   font-weight: 500;
   letter-spacing: 1.7px;
-  -webkit-transition: all 1.3s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  -moz-transition: all 1.3s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  -o-transition: all 1.3s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  transition: all 1.3s cubic-bezier(0.860, 0.000, 0.070, 1.000);
-  -webkit-transform: translateX(-275px);
-  -moz-transform: translateX(-275px);
-  -o-transform: translateX(-275px);
-  transform: translateX(-275px);
+  -webkit-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  -moz-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  -o-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  -webkit-transform: translateX(-375px);
+  -moz-transform: translateX(-375px);
+  -o-transform: translateX(-375px);
+  transform: translateX(-375px);
   transition-delay: 1.2s;
   -webkit-transition-delay: 1.2s;
   font-size: 11px;
@@ -512,12 +514,12 @@ nav li:hover:after {
 }
 .opennav {
   left: 0px;
-  -webkit-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  -moz-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  -o-transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  transition: all 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  -webkit-transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -moz-transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+       -o-transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+          transition: all 700ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 .navigation {
   position: fixed;
@@ -539,9 +541,9 @@ nav li:hover:after {
   border-left: none;
   transition-delay: 0.5s;
   -webkit-transition-delay: 0.5s;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 1px 4px 6px rgba(0,0,0,0.16), 1px 4px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 1px 4px 6px rgba(0,0,0,0.16), 1px 4px 6px rgba(0,0,0,0.23);
+  -moz-box-shadow: 1px 4px 6px rgba(0,0,0,0.16), 1px 4px 6px rgba(0,0,0,0.23);
 }
 .sidelogo {
   position: relative;
@@ -572,6 +574,15 @@ nav li:hover:after {
   cursor: pointer;
   width: 120px;
   padding: 0 0;
+  -webkit-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+     -moz-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+       -o-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+          transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+.scaleup {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.6;
 }
 .navisopen {
   left: -47px;
