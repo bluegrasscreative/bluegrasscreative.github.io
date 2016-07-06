@@ -865,11 +865,11 @@ circle {
   .smart-wrap, .smart-bar {display: none;}
   nav {
     top: 0;
-    left: -340px;
-    width: 340px;
+    left: -280px;
+    width: 270px;
   }
   nav ul {
-    width: 300px;
+    width: 240px;
     top: 70px;
     margin: 0 0 0 0;
     left: 0;
