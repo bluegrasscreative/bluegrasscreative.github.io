@@ -19,7 +19,21 @@ $(function(){
         $(".mmbb").toggleClass("bringmenu");
     });
 });
-
+$(function(){
+    $(".navigation, .behindov").click(function(){
+        $(".icon-wrap").toggleClass("fading");
+    });
+});
+$(function(){
+    $(".navigation, .behindov").click(function(){
+        $(".sidelogo").toggleClass("sideborder");
+    });
+});
+$(function(){
+    $(".navigation, .behindov").click(function(){
+        $("body").toggleClass("noscroll");
+    });
+});
 $(".link").click(function () {
     var url = this.href;
     setTimeout(function () {
