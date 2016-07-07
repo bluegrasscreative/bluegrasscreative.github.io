@@ -62,16 +62,13 @@ $(function(){
 });
 $(function(){
     $(".link").click(function(){
-
       setTimeout(
                   function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
       },
               1500);
-
     });
 });
-
 $(".link").click(function () {
     var url = this.href;
     setTimeout(function () {
@@ -79,6 +76,15 @@ $(".link").click(function () {
     }, 4500);
     return false;
 });
+
+$(function(){
+    $(".link").click(function(){
+        $(".icon-wrap").toggleClass("spinload");
+    });
+});
+
+
+
 $('.navigation, .behindov').click(function(){
   if ($('#icon-wrap-2').hasClass('toClose')){
     $('#icon-wrap-2').removeClass('toClose').addClass('toOpen');
