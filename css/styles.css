@@ -211,16 +211,15 @@ section {
   padding: 100px 0px;
 }
 .section-one {
-  padding-bottom: 270px;
+  padding-bottom: 180px;
 }
 .tilesetbg {
   position: absolute;
   top: 0;
-  height: 700px;
+  height: 670px;
   overflow: hidden;
   z-index: 0;
   max-width: 100%;
-  background: #000;
 }
 .tilesetbg, .tilesetbg img, .pllax-bk {
   webkit-transform: translateZ(0);
@@ -235,11 +234,11 @@ section {
   background: #000;
 }
 .tile-one {
-  height: 440px;
+  height: 400px;
   text-align: center;
-  transform: translateY(-200px);
+  transform: translateY(-166px);
   color: #FFFFFF;
-  line-height: 440px;
+  line-height: 300px;
 }
 .black-bg {
   background: #000;
