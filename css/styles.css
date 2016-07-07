@@ -112,7 +112,7 @@ header {
 }
 .logo {
   position: fixed;
-  top: 29vh;
+  top: 26.5vh;
   left: 50%;
   margin-left: -145px;
   width: 290px;
@@ -187,8 +187,6 @@ header {
   -o-animation-delay: 1.3s;
   opacity: 0;
 }
-
-
 .pllax-bk {
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
@@ -337,7 +335,7 @@ section {
   cursor: pointer;
 }
 .tile-two img {
-  max-width: 100%;
+  width: 120%;
   -webkit-transition: all 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
   -moz-transition: all 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
   -o-transition: all 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -598,7 +596,7 @@ nav ul {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 1.5px;
-  top: 225px;
+  top: 245px;
   opacity: 0;
   -webkit-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
   -moz-transition: all 1.4s cubic-bezier(0.860, 0.000, 0.070, 1.000);
@@ -720,7 +718,7 @@ nav li:hover:after {
 }
 .navigation {
   position: fixed;
-  top: 170px;
+  top: 190px;
   left: -160px;
   z-index: 999;
   background: rgba(255,255,255,1);
