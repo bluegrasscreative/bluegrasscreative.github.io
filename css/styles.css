@@ -971,16 +971,20 @@ circle {
 footer {
   position: relative;
   background: #1fa2da;
-  height: 320px;
-  line-height: 320px;
+  height: 250px;
   color: #FFFFFF;
   width: 100%;
   max-width: 100%;
-  -webkit-box-shadow: inset 0px 15px 49px -20px rgba(0,0,0,0.4);
-  -moz-box-shadow: inset 0px 15px 49px -20px rgba(0,0,0,0.4);
-  box-shadow: inset 0px 15px 49px -20px rgba(0,0,0,0.4);
+  -webkit-box-shadow: inset 0px 15px 30px -20px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 0px 15px 30px -20px rgba(0,0,0,0.4);
+  box-shadow: inset 0px 15px 30px -20px rgba(0,0,0,0.4);
+  display: table;
+  padding-top: 49px;
 }
-
+.vlc {
+  display: table-cell;
+  vertical-align: middle;
+}
 
 
 .queryloader__overlay__bar {
