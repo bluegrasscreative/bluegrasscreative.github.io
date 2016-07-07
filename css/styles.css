@@ -626,10 +626,7 @@ animation-timing-function: linear;
 width: 55px;
 height: 55px;
 }
-@keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
--webkit-keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
--moz-keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
--o-keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
+
 
 .scaleup {
   -webkit-filter: grayscale(100%);

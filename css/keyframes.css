@@ -210,3 +210,9 @@
 -webkit-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
 -moz-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
 -o-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
+
+
+@keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
+-webkit-keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
+-moz-keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
+-o-keyframes spinloader { 0% {transform: rotate(0deg);} 100% {transform: rotate(1440deg);}}
