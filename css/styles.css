@@ -158,34 +158,7 @@ header {
   -o-animation-delay: 1.3s;
   opacity: 0;
 }
-@keyframes logoanim {
-  0% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  5% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  45% {stroke: #1fa2da; opacity: 1;}
-  50% {stroke: #FFFFFF;}
-  100% {stroke-dasharray:752.8801,188.22; transform: rotate(-720deg); stroke: #FFF; opacity: 1;}
-}
--webkit-keyframes logoanim {
-  0% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  5% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  45% {stroke: #1fa2da; opacity: 1;}
-  50% {stroke: #FFFFFF;}
-  100% {stroke-dasharray:752.8801,188.22; transform: rotate(-720deg); stroke: #FFF; opacity: 1;}
-}
--moz-keyframes logoanim {
-  0% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  5% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  45% {stroke: #1fa2da; opacity: 1;}
-  50% {stroke: #FFFFFF;}
-  100% {stroke-dasharray:752.8801,188.22; transform: rotate(-720deg); stroke: #FFF; opacity: 1;}
-}
--o-keyframes logoanim {
-  0% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  5% {stroke-dasharray:752.8801, 2599.22; transform: rotate(90deg); stroke: #1fa2fa; opacity: 0;}
-  45% {stroke: #1fa2da; opacity: 1;}
-  50% {stroke: #FFFFFF;}
-  100% {stroke-dasharray:752.8801,188.22; transform: rotate(-720deg); stroke: #FFF; opacity: 1;}
-}
+
 
 .pllax-bk {
   transform: translateZ(0);
@@ -220,12 +193,6 @@ header {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;*/
 }
-@keyframes zoomback {0% {opacity: 0; top: -30px;}100% {opacity: 0.7; top: 0px;}}
--webkit-keyframes zoomback {0% {opacity: 0; top: -30px;}100% {opacity: 0.7; top: 0px;}}
--moz-keyframes zoomback {0% {opacity: 0; top: -30px;}100% {opacity: 0.7; top: 0px;}}
--o-keyframes zoomback {0% {opacity: 0; top: -30px;}100% {opacity: 0.7; top: 0px;}}
-
-
 .container {
   width: 60%;
   max-width: 60%;
@@ -317,23 +284,11 @@ section {
   box-shadow: 0px -4px 45px -6px rgba(0,0,0,0.3);
 }
 
-
-
-
-
-
-
-
-
-
-
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
-
-
 
 .col {
 	display: block;
@@ -657,8 +612,6 @@ nav li:hover:after {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
-
-
 .menubox {
   stroke:#1fa2da;
   stroke-linecap:round;
@@ -684,7 +637,6 @@ path.yy {
   -webkit-transition: 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -moz-transition: 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -o-transition: 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-
 }
 .toClose path.yy {
   stroke-dashoffset:-1200;
@@ -692,7 +644,6 @@ path.yy {
   -webkit-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -moz-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -o-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-
 }
 path.x2 {
   transform:rotate(0deg) translateX(0px);
@@ -707,7 +658,6 @@ path.x2 {
   -webkit-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -moz-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -o-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-
 }
 .toClose path.x2:first-of-type {
   transform:rotate(-45deg) translate(-80px, -80px);
@@ -725,7 +675,6 @@ path.x2 {
   -webkit-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -moz-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -o-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-
 }
 circle {
   fill:transparent;
@@ -733,7 +682,6 @@ circle {
   -webkit-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -moz-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -o-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-
 }
 .toClose circle {
   fill:rgba(0,0,0,.3);
@@ -741,28 +689,24 @@ circle {
   -webkit-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -moz-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
   -o-transition:720ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
-
 }
 .toClose svg path.x {
   animation: toCloseX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -webkit-animation: toCloseX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -moz-animation: toCloseX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -o-animation: toCloseX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
-
 }
 .toClose svg path.o {
   animation: toCloseO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -webkit-animation: toCloseO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -moz-animation: toCloseO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -o-animation: toCloseO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
-
 }
 .toOpen svg path.x {
   animation: toOpenX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -webkit-animation: toOpenX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -moz-animation: toOpenX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -o-animation: toOpenX 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
-
 }
 .toOpen svg path.o {
   animation: toOpenO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
@@ -770,27 +714,9 @@ circle {
   -moz-animation: toOpenO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   -o-animation: toOpenO 720ms cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
 }
-@keyframes "toCloseX"{0%{stroke-dashoffset:-1490;}100%{stroke-dashoffset:0;}}
--webkit-keyframes "toCloseX"{0%{stroke-dashoffset:-1490;}100%{stroke-dashoffset:0;}}
--moz-keyframes "toCloseX"{0%{stroke-dashoffset:-1490;}100%{stroke-dashoffset:0;}}
--o-keyframes "toCloseX"{0%{stroke-dashoffset:-1490;}100%{stroke-dashoffset:0;}}
-@keyframes "toOpenX"{0%{stroke-dashoffset:0;}100%{stroke-dashoffset:-1490;}}
--webkit-keyframes "toOpenX"{0%{stroke-dashoffset:0;}100%{stroke-dashoffset:-1490;}}
--moz-keyframes "toOpenX"{0%{stroke-dashoffset:0;}100%{stroke-dashoffset:-1490;}}
--o-keyframes "toOpenX"{0%{stroke-dashoffset:0;}100%{stroke-dashoffset:-1490;}}
-@keyframes "toCloseO"{0%{stroke-dashoffset:1700;}100%{stroke-dashoffset:-1260;}}
--webkit-keyframes "toCloseO"{0%{stroke-dashoffset:1700;}100%{stroke-dashoffset:-1260;}}
--moz-keyframes "toCloseO"{0%{stroke-dashoffset:1700;}100%{stroke-dashoffset:-1260;}}
--o-keyframes "toCloseO"{0%{stroke-dashoffset:1700;}100%{stroke-dashoffset:-1260;}}
-@keyframes "toOpenO"{0%{stroke-dashoffset:-1260;}100%{stroke-dashoffset:1700;}}
--webkit-keyframes "toOpenO"{0%{stroke-dashoffset:-1260;}100%{stroke-dashoffset:1700;}}
--moz-keyframes "toOpenO"{0%{stroke-dashoffset:-1260;}100%{stroke-dashoffset:1700;}}
--o-keyframes "toOpenO"{0%{stroke-dashoffset:-1260;}100%{stroke-dashoffset:1700;}}
 .fillwhite {
   stroke: #FFF;
 }
-
-
 .mouse {
   background: #DEDEDE -webkit-linear-gradient(transparent 0%, transparent 50%, #1fa2da 50%, #1fa2da 100%);
   background: #DEDEDE linear-gradient(transparent 0%, transparent 50%, #1fa2da 50%, #1fa2da 100%);
@@ -831,166 +757,7 @@ circle {
   -moz-animation: trackBallSlide 8s linear infinite;
   -o-animation: trackBallSlide 8s linear infinite;
 }
-@-webkit-keyframes colorSlide {
-  0% {background-position: 0% 100%;}
-  20% {background-position: 0% 0%;}
-  21% {background-color: #DEDEDE;}
-  29.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  30% {background-color: #DEDEDE; background-position: 0% 100%;}
-  50% {background-position: 0% 0%;}
-  51% {background-color: #DEDEDE;}
-  59.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  60% {background-color: #DEDEDE; background-position: 0% 100%;}
-  80% {background-position: 0% 0%;}
-  81% {background-color: #DEDEDE;}
-  89.99%, 100% {background-color: #1fa2da;}
-}
-@keyframes colorSlide {
-  0% {background-position: 0% 100%;}
-  20% {background-position: 0% 0%;}
-  21% {background-color: #DEDEDE;}
-  29.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  30% {background-color: #DEDEDE; background-position: 0% 100%;}
-  50% {background-position: 0% 0%;}
-  51% {background-color: #DEDEDE;}
-  59.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  60% {background-color: #DEDEDE; background-position: 0% 100%;}
-  80% {background-position: 0% 0%;}
-  81% {background-color: #DEDEDE;}
-  89.99%, 100% {background-color: #1fa2da;}
-}
--moz-keyframes colorSlide {
-  0% {background-position: 0% 100%;}
-  20% {background-position: 0% 0%;}
-  21% {background-color: #DEDEDE;}
-  29.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  30% {background-color: #DEDEDE; background-position: 0% 100%;}
-  50% {background-position: 0% 0%;}
-  51% {background-color: #DEDEDE;}
-  59.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  60% {background-color: #DEDEDE; background-position: 0% 100%;}
-  80% {background-position: 0% 0%;}
-  81% {background-color: #DEDEDE;}
-  89.99%, 100% {background-color: #1fa2da;}
-}
--o-keyframes colorSlide {
-  0% {background-position: 0% 100%;}
-  20% {background-position: 0% 0%;}
-  21% {background-color: #DEDEDE;}
-  29.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  30% {background-color: #DEDEDE; background-position: 0% 100%;}
-  50% {background-position: 0% 0%;}
-  51% {background-color: #DEDEDE;}
-  59.99% {background-color: #1fa2da; background-position: 0% 0%;}
-  60% {background-color: #DEDEDE; background-position: 0% 100%;}
-  80% {background-position: 0% 0%;}
-  81% {background-color: #DEDEDE;}
-  89.99%, 100% {background-color: #1fa2da;}
-}
-@-webkit-keyframes trackBallSlide {
-  0% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  6% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  14% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  15%, 19% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  28%, 29.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  30% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  36% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  44% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  45%, 49% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  58%, 59.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  60% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  66% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  74% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  75%, 79% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  88%, 100% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-}
-@keyframes trackBallSlide {
-  0% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  6% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  14% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  15%, 19% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  28%, 29.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  30% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  36% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  44% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  45%, 49% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  58%, 59.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  60% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  66% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  74% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  75%, 79% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  88%, 100% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-}
--moz-keyframes trackBallSlide {
-  0% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  6% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  14% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  15%, 19% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  28%, 29.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  30% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  36% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  44% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  45%, 49% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  58%, 59.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  60% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  66% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  74% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  75%, 79% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  88%, 100% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-}
--o-keyframes trackBallSlide {
-  0% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  6% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  14% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  15%, 19% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  28%, 29.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  30% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  36% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  44% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  45%, 49% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  58%, 59.99% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  60% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-  66% {opacity: 1; -moz-transform: scale(0.9) translateY(2.8px); -o-transform: scale(0.9) translateY(2.8px); -webkit-transform: scale(0.9) translateY(2.8px); transform: scale(0.9) translateY(2.8px);}
-  74% {opacity: 0; -moz-transform: scale(0.4) translateY(22.4px); -o-transform: scale(0.4) translateY(22.4px); -webkit-transform: scale(0.4) translateY(22.4px); transform: scale(0.4) translateY(22.4px);}
-  75%, 79% {opacity: 0; -moz-transform: scale(0.4) translateY(-11.2px); -o-transform: scale(0.4) translateY(-11.2px); -webkit-transform: scale(0.4) translateY(-11.2px); transform: scale(0.4) translateY(-11.2px);}
-  88%, 100% {opacity: 1; -moz-transform: scale(1) translateY(-11.2px); -o-transform: scale(1) translateY(-11.2px); -webkit-transform: scale(1) translateY(-11.2px); transform: scale(1) translateY(-11.2px);}
-}
-@-webkit-keyframes nudgeMouse {
-  0% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  20% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  30% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  50% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  60% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  80% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  90% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-}
-@keyframes nudgeMouse {
-  0% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  20% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  30% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  50% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  60% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  80% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  90% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-}
--moz-keyframes nudgeMouse {
-  0% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  20% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  30% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  50% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  60% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  80% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  90% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-}
--o-keyframes nudgeMouse {
-  0% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  20% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  30% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  50% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  60% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-  80% {-moz-transform: translateY(8px); -o-transform: translateY(8px); -webkit-transform: translateY(8px); transform: translateY(8px);}
-  90% {-moz-transform: translateY(0); -o-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0);}
-}
+
 .queryloader__overlay__bar {
     top: 0px !important;
 }
@@ -1011,10 +778,7 @@ circle {
     -moz-animation: fadeinq 2s ease infinite;
     -o-animation: fadeinq 2s ease infinite;
 }
-@keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
--webkit-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
--moz-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
--o-keyframes fadeinq {0%{opacity: 0;} 50% {opacity: 1;} 100%{opacity: 0;}}
+
 @media only screen and (max-width: 860px) {
 	.col {
 		margin: 0% 0 0% 0%;
@@ -1107,7 +871,6 @@ circle {
   }
 }
 @media only screen and (max-width: 860px) {
-
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
 
 }
