@@ -26,8 +26,8 @@ body {
   -moz-transition: all 700ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
   -o-transition: all 700ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transition: all 700ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
-  transition-delay: 1.5s;
-  -webkit-transition-delay: 1.5s;
+  transition-delay: 3s;
+  -webkit-transition-delay: 3s;
   opacity: 0;
 }
 *, *:before, *:after {

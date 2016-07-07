@@ -281,6 +281,6 @@
         barHeight: 8,
         deepSearch: !0,
         minimumTime: 250,
-        fadeOutTime: 4500
+        fadeOutTime: 500
     })
 });

@@ -62,7 +62,13 @@ $(function(){
 });
 $(function(){
     $(".link").click(function(){
+
+      setTimeout(
+                  function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
+      },
+              1500);
+
     });
 });
 
@@ -70,7 +76,7 @@ $(".link").click(function () {
     var url = this.href;
     setTimeout(function () {
         location.href = url;
-    }, 2500);
+    }, 4500);
     return false;
 });
 $('.navigation, .behindov').click(function(){
@@ -80,3 +86,8 @@ $('.navigation, .behindov').click(function(){
     $('#icon-wrap-2').removeClass('toOpen').addClass('toClose');
   }
 });
+if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+    skrollr.init({
+        forceHeight: false
+    });
+}
