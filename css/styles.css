@@ -211,12 +211,12 @@ section {
   padding: 100px 0px;
 }
 .section-one {
-  padding-bottom: 180px;
+  padding-bottom: 210px;
 }
 .tilesetbg {
   position: absolute;
   top: 0;
-  height: 670px;
+  height: 700px;
   overflow: hidden;
   z-index: 0;
   max-width: 100%;
@@ -236,9 +236,35 @@ section {
 .tile-one {
   height: 400px;
   text-align: center;
-  transform: translateY(-166px);
+  transform: translateY(-150px);
   color: #FFFFFF;
-  line-height: 300px;
+  display: table;
+}
+.tile-one-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.tile-one h4 {
+  position: relative;
+  font-size: 18px;
+  margin: auto auto 25px auto;
+  padding: 0;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 40px;
+  display: block;
+}
+.tile-one p {
+  position: relative;
+  font-size: 16px;
+  display: block;
+  line-height: 22px;
+  margin: 15px auto;
+  padding: 0;
+  max-width: 75%;
+  font-weight: 100;
+  text-align: center;
+  color: #FFFFFF;
 }
 .black-bg {
   background: #000;
