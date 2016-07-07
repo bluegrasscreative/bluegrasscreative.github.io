@@ -334,6 +334,7 @@ section {
   -o-transition: all 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
   transition: all 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
   border: 1px solid #FFFFFF;
+  cursor: pointer;
 }
 .tile-two img {
   max-width: 100%;
@@ -369,7 +370,7 @@ section {
 }
 .overlay hr {
   position: relative;
-  margin: 10px auto;
+  margin: 0 auto;
   width: 0%;
   border: none;
   height: 1px;
@@ -386,7 +387,7 @@ section {
 .tile-two h4 {
   position: relative;
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
   font-size: 21px;
   color: #FFF;
   opacity: 0;
@@ -395,9 +396,9 @@ section {
   text-transform: uppercase;
   -webkit-transform: translateY(15px);
   -webkit-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
-     -moz-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
-       -o-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
-          transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+  -moz-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+  -o-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+  transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
@@ -412,12 +413,11 @@ section {
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
   -webkit-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
-     -moz-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
-       -o-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
-          transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+  -moz-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+  -o-transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+  transition: all 1550ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
-
 }
 .tile-two:hover p {
   opacity: 1;
@@ -970,7 +970,18 @@ circle {
   -moz-animation: trackBallSlide 8s linear infinite;
   -o-animation: trackBallSlide 8s linear infinite;
 }
-
+footer {
+  position: relative;
+  background: #1fa2da;
+  height: 320px;
+  line-height: 320px;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 100%;
+  -webkit-box-shadow: inset 0px 15px 49px -20px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 0px 15px 49px -20px rgba(0,0,0,0.4);
+  box-shadow: inset 0px 15px 49px -20px rgba(0,0,0,0.4);
+}
 
 
 
